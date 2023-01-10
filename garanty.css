@@ -21,26 +21,26 @@
 }
 .garanty .content__app .icon__app{
     
-    width: 120px;
+    width: 150px !important;
     margin-bottom:30px;
-    height: 120px;
+    height:150px !important;
     
 }
 .garanty .content__app .icon__app.one{
-    background-image: url('imgs/samen_icon.png');
+    background-image: url('imgs/samen_icon\ 3.png');
     background-position: center;
     background-size: cover;
     
 }
 
 .garanty .content__app .icon__app.two {
-    background-image: url('imgs/secuur_icon.png');
+    background-image: url('imgs/secuur_icon\ 3.png');
     background-position: center;
     background-size: cover;
 }
 
 .garanty .content__app .icon__app.three {
-    background-image: url('imgs/aandacht_icon.png');
+    background-image: url('imgs/aandacht_icon\ 3.png');
     background-position: center;
     background-size: cover;
 
@@ -69,8 +69,8 @@
 }
 @media screen and (max-width:1600px){
     .garanty .content__app .icon__app{
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
     .garanty .content__app .content__app_ga{
         font-size: 18px;
@@ -93,7 +93,7 @@
         font-size: 14px;
     }
     .garanty .icon__app{
-        width: 200px;
+        width: 150px;
         height: 120px;
     }
     .garanty p{
