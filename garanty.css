@@ -24,23 +24,25 @@
     width: 120px;
     margin-bottom:30px;
     height: 120px;
-    background-size: cover;
-    background-position: center;
+    
 }
-.garanty .content__app .icon__app.one img{
-    width: 100%;
-    height: 100%;
+.garanty .content__app .icon__app.one{
+    background-image: url('imgs/samen_icon.png');
+    background-position: center;
+    background-size: cover;
     
 }
 
-.garanty .content__app .icon__app.two img{
-    width: 100%;
-    height: 100%;
+.garanty .content__app .icon__app.two {
+    background-image: url('imgs/secuur_icon.png');
+    background-position: center;
+    background-size: cover;
 }
 
-.garanty .content__app .icon__app.three img{
-    width: 100%;
-    height: 100%;
+.garanty .content__app .icon__app.three {
+    background-image: url('imgs/aandacht_icon.png');
+    background-position: center;
+    background-size: cover;
 
 }
 
