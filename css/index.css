@@ -29,7 +29,7 @@
 .nav__app .links-ul .lists__app{
     list-style: none;
     display: flex;
-
+    align-items: center;
     justify-content: center;
     
 }
@@ -38,6 +38,8 @@
     
     display: inline-block;
     margin-left: 30px;
+    display: flex;
+    align-items: center;
 
 }
 .nav__app .links-ul .lists__app span a{
