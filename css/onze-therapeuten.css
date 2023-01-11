@@ -50,7 +50,10 @@
 .about__app .field .header__field .persone{
     /*width:35%;*/
     width: 200px;
+    height: 200px;
     
+    background-image: url('../imgs/therapist_icon_2-01.png');
+    background-position: center;
     margin-right: 15px;
     background-size: cover;
 }
@@ -78,6 +81,13 @@
     }
 }
 @media screen and (max-width:800px){
+    .about__app .field .header__field .persone{
+        /*width:35%;*/
+        width: 200px;
+        height: 200px;
+        
+       
+    }
     .content__app{
         width: 90%;
         margin: auto;
@@ -135,6 +145,13 @@
 
 
 @media screen and (max-width:600px){
+    .about__app .field .header__field .persone{
+        /*width:35%;*/
+        width: 200px;
+        height: 200px;
+        
+       
+    }
     .about__app .field .body__field p{
         font-size: 13px
     }
