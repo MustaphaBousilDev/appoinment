@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
 }
+
 a{
     text-decoration: none;
 }
@@ -85,7 +88,7 @@ a{
     padding-left: 15%;
 }
 .containers .main .row .img-holder .price p:last-of-type{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -100,20 +103,26 @@ a{
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
 }
-.containers .main .row .text-holder button{
-    text-align: center;
+.containers .main .row .text-holder a{ 
     background-color: #50BFE2;
-    padding: 30px;
-    width: 100%;
-    border: none;
-    font-size: 40px;
+    text-decoration: none;
     border-radius: 64px;
     margin-top: 30px;
+    display: flex;
+    padding:20px 10px;
+    justify-content: center;
+    align-items: center;
 }
-.containers .main .row .text-holder button a{
-    text-decoration: none;
+.containers .main .row .text-holder a .btn__app{
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
     color: #fff;
-    text-align: center;
+    padding:0;
+
+ 
+
 }
 .containers .main .last{
     background-color: white;
@@ -166,7 +175,7 @@ a{
         font-size: 20px;
     }
     .containers .main .row .img-holder .price p:last-of-type{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 900;
     }
     .containers .main .row{
@@ -183,12 +192,13 @@ a{
         text-align: justify;
         font-size: 12px;
     }
-    .containers .main .row .text-holder button {
-        padding: 10px;
-        width: 100%;
-        border: none;
-        font-size: 17px;
+    .containers .main .row .text-holder a{ 
         border-radius: 20px;
+        padding: 10px;
+    }
+    .containers .main .row .text-holder a .btn__app{
+        width: 100%;
+        font-size: 17px;
     }
     .containers .main .last {
         background-color: white;
@@ -236,7 +246,7 @@ a{
         font-size: 20px;
     }
     .containers .main .row .img-holder .price p:last-of-type {
-        font-size: 35px;
+        font-size: 25px;
     }
     .containers .main .row .text-holder {
         border-radius: 50px;
@@ -248,13 +258,13 @@ a{
     .containers .main .row .text-holder p {
         font-size: 18px;
     }
-    .containers .main .row .text-holder button {
-        padding: 20px;
-        width: 100%;
-        border: none;
-        font-size: 30px;
+    .containers .main .row .text-holder a{ 
         border-radius: 64px;
-        margin-top: 30px;
+        padding: 20px;
+    }
+    .containers .main .row .text-holder a .btn__app{
+        width: 100%;
+        font-size: 30px;
     }
     .containers .main .last {
         background-color: white;
