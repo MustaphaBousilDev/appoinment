@@ -78,6 +78,21 @@ a{
     padding: 10px;
     padding: 20px 0;
 }
+.content .form form .next .button_sub{
+    border:none;
+    outline: none;
+    background-color: rgb(117, 184, 236);
+    color:#fff;
+    border-radius:30px;
+    cursor: pointer;
+    transition:.3s;
+    padding:20px 40px;
+    font-size: 22px;
+    opacity: .9;
+}
+.content .form form .next .button_sub:hover{
+    opacity: 1;
+}
 .content .form form .next .label{
     display: block;
     font-size: 25px;
@@ -95,6 +110,13 @@ a{
 }
 
 @media screen and (max-width: 821px){
+    .content .form form .next .button_sub{
+        
+        border-radius:15px;
+        padding:7px 12px;
+        
+        font-size: 12px;
+    }
     .content {
         padding: 20px 0;
     }
@@ -138,6 +160,12 @@ a{
     }
 }
 @media screen and ((min-width: 822px) and (max-width: 1600px)){
+    .content .form form .next .button_sub{
+        
+        border-radius:25px;
+        padding:10px 20px;
+        font-size: 22px;
+    }
     .content .heading{
         padding: 10px;
     }
