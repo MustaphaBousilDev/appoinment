@@ -20,9 +20,10 @@ a{
     transition-delay: .2s;
 }
 .parent__den.actives{
-    margin-top: 190px;
-    
-}
+   
+        margin-top: 239px;
+        
+    }
 .containers{
     padding: 40px 100px;
     background-color: #eee;
