@@ -1,10 +1,11 @@
 .about__app{
     padding: 70px 50px; 
     
-    background-image:url('../imgs/bg_therapists.jpg');
+    background-image:url('../imgs/bg_yog-01.jpg');
     background-size: cover;
-    background-position: 35%;
+    background-position: center 30%;
     position: relative;
+    
     transition: .1s;
     transition-delay: .2s;
     

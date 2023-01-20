@@ -43,7 +43,7 @@ a{
     background-repeat: no-repeat;
     text-align: center;
     width: 30%;
-    height: 706px;
+    
     border-radius: 60px;
     z-index: 1;
     position: relative;
@@ -97,11 +97,11 @@ a{
     background-color: #fff;
     border-radius: 80px;
     width: 64%;
-    padding: 40px ;
+    padding: 60px 90px;
 }
 .containers .main .row .text-holder p{
     text-align: justify;
-    font-size: 32px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 .containers .main .row .text-holder a{ 
@@ -134,12 +134,13 @@ a{
 }
 .containers .main .last p:first-of-type{
     text-align: center;
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 900;
 }
 .containers .main .last p:last-of-type{
     text-align: center;
-    font-size: 42px;
+    font-size: 20px;
+    
 }
 
 /* responsive in mobile */
@@ -176,7 +177,7 @@ a{
         font-size: 20px;
     }
     .containers .main .row .img-holder .price p:last-of-type{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 900;
     }
     .containers .main .row{
@@ -187,7 +188,7 @@ a{
         border-radius: 25px;
         width: 80%;
         margin: 0 auto;
-        padding: 20px 10px;
+        padding: 20px 20px;
     }
     .containers .main .row .text-holder p{
         text-align: justify;
@@ -247,7 +248,7 @@ a{
         font-size: 20px;
     }
     .containers .main .row .img-holder .price p:last-of-type {
-        font-size: 25px;
+        font-size: 23px;
     }
     .containers .main .row .text-holder {
         border-radius: 50px;
@@ -275,12 +276,12 @@ a{
     }
     .containers .main .last p:first-of-type {
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 900;
     }
     .containers .main .last p:last-of-type {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 .service2-img{
