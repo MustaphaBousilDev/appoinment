@@ -288,6 +288,7 @@
 }
 .section__home .paragraphs{
     margin-bottom: 60px;
+    font-size: 18px;
 }
 .section__home .paragraphs div{
     width: 85%;margin: auto;
@@ -662,9 +663,6 @@
         margin-bottom:10px;
     }
     .services___content{
-        height: 100vh;
-        overflow: hidden;
-        overflow-y: scroll;
         background-color: rgb(95, 140, 206);
         padding:20px 30px;
     
