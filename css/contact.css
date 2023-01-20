@@ -25,7 +25,7 @@ a{
     
 }
 .content{
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     padding: 20px 0;
 }
@@ -60,7 +60,7 @@ a{
 }
 .content .form form .row .left .label{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 25px;
     font-weight: 500;
 }
@@ -69,8 +69,8 @@ a{
     outline: none;
     border: none;
     border-radius: 35px;
-    padding: 20px 15px;
-    font-size: 25px;
+    padding: 16px 10px;
+    font-size: 20px;
     font-weight: 500;
 }
 .content .form form .next{
@@ -86,7 +86,7 @@ a{
     border-radius:30px;
     cursor: pointer;
     transition:.3s;
-    padding:20px 40px;
+    padding:15px 40px;
     font-size: 22px;
     opacity: .9;
 }
@@ -95,7 +95,7 @@ a{
 }
 .content .form form .next .label{
     display: block;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 25px;
     font-weight: 500;
 }
@@ -104,8 +104,8 @@ a{
     outline: none;
     border: none;
     border-radius: 35px;
-    padding: 20px 15px;
-    font-size: 25px;
+    padding: 16px 10px;
+    font-size: 20px;
     font-weight: 500;
 }
 

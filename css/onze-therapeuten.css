@@ -33,6 +33,7 @@
     position: relative;
     z-index: 1000;
     font-weight: 600;
+    font-size: 15px;
 }
 .about__app .field{
     position: relative;
@@ -75,9 +76,14 @@
     font-size: 16px;
     color:#fff;
 }
+.about__app .father__field{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 @media screen and (max-width:1080px){
     .about__app .field .header__field h2{
-        font-size: 23px;
+        font-size: 17px;
     }
 }
 @media screen and (max-width:800px){
@@ -88,11 +94,23 @@
         
        
     }
+    .about__app .father__field{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
     .content__app{
         width: 90%;
         margin: auto;
     }
-    
+    .info h2{
+        text-align: start;
+    }
+    .info p{
+        text-align: start;
+        margin-left:0;
+    }
     .about__app h2{
         font-size: 22px;
     }
@@ -113,7 +131,7 @@
     .about__app .field .header__field .persone{
         width:40%;
         
-        margin:auto;
+        margin:0;
         background-size: cover;
     }
     .about__app .field .header__field .persone img{
@@ -130,7 +148,7 @@
         font-size:13px;
         font-weight: normal;
         width: 50%;
-        margin: auto;
+        margin: 0;
     }
     .about__app .field .body__field p{
         font-size: 16px

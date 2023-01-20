@@ -13,7 +13,8 @@
 
 
 .main{
-    background-image: url("../imgs/bg.png");
+    /* background-image: url("../imgs/bg.png"); */
+    background-image: url("../imgs/bg_nature-01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +30,7 @@ a{
 .main__principal.actives{
     margin-top: 198px;
 }
-.gradient{
+/* .gradient{
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +38,7 @@ a{
     width: 100%;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 27%, rgba(255,255,255,0) 100%);
-}
+} */
 .main .container{
     width: 90%;
     /* height: 100vh; */
@@ -218,8 +219,9 @@ a{
     .container .section .label {
         padding-bottom: 20px;
     }
-    .container .section .text {
+    .container .section .text{
         padding: 0px 22px;
+        font-size: 18px;
     }
     .container .last-p{
         padding: 30px 22px;
