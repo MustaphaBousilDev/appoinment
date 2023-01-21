@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap');
 
-
+.active__links{
+    background-color: rgb(117, 184, 236);color:#fff;display: inline-block;
+    padding: 5px 10px;border-radius:20px;
+}
 .nav__app{
     height: 55px;
     padding:0 50px;
@@ -154,7 +157,8 @@
 
 .header__app .content__app{
     flex:1;
-   
+    /*background-color: #1a4952;*/
+    background-color: #368fa1;
     position: relative;
 }
 .header__app .content__app img{
@@ -281,10 +285,10 @@
 
 .section__home p{
     font-size: 25px;
-    letter-spacing: -2px;
     font-weight: bold;
     text-align: center;
     margin-bottom:80px;
+    letter-spacing: 0;
 }
 .section__home .paragraphs{
     margin-bottom: 60px;

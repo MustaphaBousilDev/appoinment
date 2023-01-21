@@ -81,6 +81,7 @@ a{
     align-items: start;
     flex-direction: column;
     color: #fff;
+    z-index: 100;
 }
 .containers .main .row .img-holder .price p:first-of-type{
     font-size: 40px;

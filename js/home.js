@@ -3,4 +3,8 @@ document.querySelector('.menu-bar').addEventListener('click',()=>{
     document.querySelector('.header__app').classList.toggle('actives')
 })
 
- 
+document.querySelectorAll('.lists__app span').forEach((span)=>{
+    if(span.classList.contains('active__links')){
+        span.querySelector('a').style.color="#fff" 
+    }
+})
